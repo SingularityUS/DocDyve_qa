@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-haystack = "*"
+whoosh = "*"
+torch = "*"
+transformers = "*"
+spacy = "*"
+django-sslserver = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
